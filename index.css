@@ -1,3 +1,4 @@
+
 /* HEADER BÖLÜMÜ */
 header {
     display: flex;
@@ -37,6 +38,19 @@ header .search .profile {
     width: 75px;
     height: 75px;
 }
+
+.button {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 6rem;
+}
+
 /* MAİN BÖLÜMÜ */
 .movie-info {
     display: flex;
@@ -74,13 +88,7 @@ main p {
     color: gold; 
 }
 
-/* POPULAR MOVIES */
-.popular-movies {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
+/* SECTİON */
 .titles {
     display: flex;
     justify-content: space-between;
@@ -90,13 +98,23 @@ main p {
     color: black;
     font-weight: bold;
 }
-.popular-movies-1 {
-    flex: 0 0 auto;
-    width:  1rem;
-    margin: 0.8rem;
-    padding: 2rem;
-
+/* SECTİON POPULAR MOVIES */
+.popular-movies-child {
+    display: flex;
+    justify-content: space-between;
 }
+
+/* SECTİON RECOMMENDE MOVIES */
+.recommende-for-you-child {
+    display: flex;
+    justify-content: space-between;
+}
+/* SECTİON MOVIE LİST */
+.movieList-child {
+    display: flex;
+    justify-content: space-between;
+}
+/* FOOTER */
 footer {
     background-color: #f8f8f8;
     padding: 1.2rem;
@@ -119,6 +137,8 @@ footer nav a {
 footer img {
     flex: 1;
     height: 2rem;
+}
+@media (max-width: 430px) {
 }
 
 
