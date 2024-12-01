@@ -1,6 +1,125 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+/* HEADER BÖLÜMÜ */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
 }
+.search img {
+    width: 1.5rem;
+}
+header img {
+    width: 150px;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .search {
+    display: flex;
+    align-items: center;
+}
+
+header .search input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+header .search .profile {
+    border-radius: 75%;
+    width: 75px;
+    height: 75px;
+}
+/* MAİN BÖLÜMÜ */
+.movie-info {
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    gap: 0.5rem;
+    }
+.cta-button {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 0.8rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 6rem;
+}
+main p {
+    width: 400px;
+}
+.movie-detalis {
+    width: 500px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* Sarı yıldız rengi */
+.star-rating i {
+    color: gray; 
+    font-size: 1rem; 
+    margin-right: 1px; 
+}
+.star-rating i.filled {
+    color: gold; 
+}
+
+/* POPULAR MOVIES */
+.popular-movies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.titles {
+    display: flex;
+    justify-content: space-between;
+}
+.titles a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.popular-movies-1 {
+    flex: 0 0 auto;
+    width:  1rem;
+    margin: 0.8rem;
+    padding: 2rem;
+
+}
+footer {
+    background-color: #f8f8f8;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.2rem;
+}
+footer nav {
+   margin: 1.2rem 0;
+   text-align: center;
+}
+footer nav a {
+    padding: 1.2rem;
+    row-gap: 1.2rem;
+    text-decoration: none;
+    color: rgb(53, 45, 45);
+    margin: 0;
+}
+footer img {
+    flex: 1;
+    height: 2rem;
+}
+
+
+
