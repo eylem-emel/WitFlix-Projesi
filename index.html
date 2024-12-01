@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" >
+    <link href="index.css" rel="stylesheet">
     <title>WitFlix</title>
     </head>
 <body>
+
     <header>
         <img src="images/witflix-logo.png" alt="witflix-logo">
         <nav>
@@ -18,62 +20,142 @@
         </nav>
         <div class="search">
             <input type="text" placeholder="Search">
+            <img src="images/search-icon.png" alt="search-icon">
             <i class="fas fa-bell"></i>
             <img class="profile" src="images/profil-foto.png" alt="Profile">
         </div>
     </header>
-    <main>
-        <h1>MOVİE NAME</h1>
-        <div>
-            <div class="star"></div>
-            <span></span>
-            <span></span>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident temporibus earum molestiae. 
-        Ex officiis vitae sapiente sit atque animi commodi, veritatis harum quis, nobis, accusamus voluptate 
-        voluptatem quia consequatur aliquid.</p>
-        <div class="detalis">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <button></button>
 
-    </main>
-    <section class="popular-movies"></section>
-    <section class="recommende-for-you"></section>
-    <section id="movieList">
-        <div>
-            <h2></h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Error deserunt dicta pariatur harum a iusto expedita, explicabo 
-                autem exercitationem temporibus quidem officiis, corrupti quasi! 
-                Beatae mollitia odio voluptas aspernatur explicabo!</p>
-        </div>
-        <div class="movie-container">
-            <div class="movie-card">
-                <h3></h3>
-                <div></div>
-                <button></button>
+    <main>
+      <div class="hero-content">
+        <h1>MOVİE NAME</h1>
+        <div class="movie-info">
+            <div class="star-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            <div class="user-ratings">
+                <span class="user-rating">7.3</span>
+                <span class="imbd-rating">IMBD</span>
             </div>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Deserunt, facere impedit sapiente unde distinctio alias 
+            quasi recusandae assumenda at amet dolorum delectus eum, 
+            beatae magni! Alias iste quia tempora suscipit?</p>
+        <ul class="movie-detalis">
+            <li>Starring:<span>Lorem ipsum dolor sit.</span></li>
+            <li>Genre:<span>Lorem ipsum dolor sit.</span></li>
+            <li>Tags:<span>Lorem ipsum dolor sit.</span></li>
+        </ul>
+        <div class="btn btn-lg">
+            <i class="fas fa-play">Play Now</i>
+        </div>
+      </div>
+    </main>
+
+    <section class="popular-movies">
+        <h2>Popular Movies</h2>
+        <a href="viewall.html">View All</a>
+        <div class="popular-movies-1">
+            <h2>MOVİE NAME 1</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="popular-movies-2">
+            <h2>MOVİE NAME 2</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="popular-movies-3">
+            <h2>MOVİE NAME 3</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
         </div>
     </section>
+
+    <section class="recommende-for-you">
+        <h2>Recommende For You</h2>
+        <a href="viewall.html">View All</a>
+        <div class="recommende-for-you-1">
+            <h2>MOVİE NAME 1</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="recommende-for-you-2">
+            <h2>MOVİE NAME 2</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="recommende-for-you-3">
+            <h2>MOVİE NAME 3</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+    </section>
+    
+    </section>
+    <section class="movieList">
+        <h2>Movie List</h2>
+        <div class="movieList-1">
+            <h2>MOVİE NAME 1</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="movieList-2">
+            <h2>MOVİE NAME 2</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+        <div class="rmovieList-3">
+            <h2>MOVİE NAME 3</h2>
+            <span class="maturity-rating">16+</span>
+            <span class="duration">2h 21 min</span>
+            <button>Play Now</button>
+        </div>
+    </section>
+
     <footer>
         <div>
-            <nav></nav>
-            <p></p>
+            <nav>
+                <div class="nav-items">
+                    <a href="term-of-use.html">Term Of Use</a>
+                    <a href="privacypolicy.html">Privacy-Policy</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="wachlist.html">Wach List</a>
+                  </div>
+            </nav>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Veniam, molestiae saepe accusantium sint quibusdam aspernatur 
+                animi officiis voluptatum laboriosam enim perferendis vel qui 
+                atque quisquam adipisci nemo, vitae esse quam.</p>
         </div>
         <div>
-            <p></p>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            <p>Follow Us</p>
+            <div class="social-items">
+                <img src="images/facebook-icon.png" alt="">
+                <img src="images/youtube-icon.png" alt="">
+                <img src="images/twitter-icon.png" alt="">
             </div>
         </div>
-        <div></div>
+        <div>
+            <h4>Apps</h4>
+            <img src="images/app store-icon.png" alt="">
+            <img src="images/google play-icon.png" alt="">
+        </div>
     </footer>
 </body>
 </html>
