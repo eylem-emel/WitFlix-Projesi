@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .maturity-rating {
   border: 2px solid black;
   padding: 4px;
@@ -13,10 +18,23 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
+    padding: 0.5rem;
 }
+
+.search {
+    position: relative;
+    display: inline-block;
+}
+
 .search img {
     width: 1.5rem;
 }
+
+.search-icon {
+    
+}
+
+
 header img {
     width: 150px;
 }
